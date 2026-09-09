@@ -37,8 +37,3 @@ jobs:
         with:
           name: cook-king-apk
           path: extracted/AdamsKitchenAndroid/app/build/outputs/apk/debug/app-debug.apk
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: cook-king-apk
-          path: extracted/**/app/build/outputs/apk/debug/app-debug.apk
